@@ -62,6 +62,10 @@ $dates = [
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <?php foreach($dates as $data){ ?>
+            <h2> <?php echo $data['title']; ?> </h2>
+        <?php } ?>
+    </main>
 </body>
 </html>
